@@ -103,7 +103,7 @@ it('should display the car search modal', async () => {
     await expect($(page.carSearchModal)).toBeExisting();
 })
     
-// 9) Wait for the driver infor to appear in the modal
+// 9) Wait for the driver info to appear in the modal
 it('should display driver info in the car search modal', async () => {
     await browser.url(`/`)
     await page.fillAddresses('East 2nd Street, 601', '1300 1st St');
